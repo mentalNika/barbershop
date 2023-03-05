@@ -87,4 +87,17 @@
 		height: 2px;
 		background-color: #fff;
 	}
+
+	&::before {
+		transform: rotate(45deg);
+	}
+
+	&::after {
+		transform: rotate(-45deg);
+	}
+
+	&:active::before,
+	&:active::after {
+		background-color: fade(#fff, 30%);
+	}
 }
