@@ -13,7 +13,15 @@
 .user-list__login {
 	position: relative;
 	display: block;
-	padding: 17px 21px;
+	padding: 17px 42px;
 	line-height: 18px;
 	color: #fff;
+}
+
+.user-list__login-icon {
+	position: absolute;
+	top: 18px;
+	left: 14px;
+	width: 16px;
+	height: 16px;
 }
