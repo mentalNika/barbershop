@@ -1,5 +1,10 @@
 .site-list {
+	font-weight: bold;
+
 	@media (min-width: $tablet-width) {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
 		width: 580px;
 	}
 
